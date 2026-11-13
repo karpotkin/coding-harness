@@ -1,0 +1,20 @@
+{
+  "name": "coding-harness",
+  "interface": {
+    "displayName": "karpotkin coding harness"
+  },
+  "plugins": [
+    {
+      "name": "coding-harness",
+      "source": {
+        "source": "url",
+        "url": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

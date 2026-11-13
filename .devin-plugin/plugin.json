@@ -1,0 +1,20 @@
+{
+  "name": "coding-harness",
+  "version": "1.0.0",
+  "description": "An agentic skills framework & software development methodology that works: planning, TDD, debugging, and collaboration workflows.",
+  "author": {
+    "name": "karpotkin"
+  },
+  "homepage": "https://github.com/karpotkin/coding-harness",
+  "repository": "https://github.com/karpotkin/coding-harness",
+  "keywords": [
+    "brainstorming",
+    "subagent-driven-development",
+    "skills",
+    "planning",
+    "tdd",
+    "debugging",
+    "code-review",
+    "workflow"
+  ]
+}

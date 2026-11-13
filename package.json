@@ -1,0 +1,28 @@
+{
+  "name": "coding-harness",
+  "version": "1.0.0",
+  "description": "Superpowers skills and runtime bootstrap for coding agents",
+  "type": "module",
+  "main": ".opencode/plugins/coding-harness.js",
+  "keywords": [
+    "pi-package",
+    "skills",
+    "tdd",
+    "debugging",
+    "collaboration",
+    "workflow"
+  ],
+  "pi": {
+    "extensions": [
+      "./.pi/extensions/superpowers.ts"
+    ],
+    "skills": [
+      "./skills"
+    ]
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./.dsh/cordis.patch.yml"
+    }
+  }
+}

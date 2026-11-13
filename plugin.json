@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "coding-harness",
+  "version": "1.0.0",
+  "description": "karpotkin coding harness distribution: planning, TDD, debugging, review, and delivery workflows for coding agents.",
+  "author": {
+    "name": "karpotkin",
+    "url": "https://github.com/karpotkin/coding-harness"
+  },
+  "homepage": "https://github.com/karpotkin/coding-harness",
+  "repository": "https://github.com/karpotkin/coding-harness",
+  "keywords": [
+    "coding-agent",
+    "planning",
+    "tdd",
+    "debugging",
+    "code-review"
+  ],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/using-coding-harness/SKILL.md"
+    }
+  }
+}
