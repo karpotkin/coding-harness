@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "superpowers",
+  "version": "7.0.2",
+  "description": "Karpotkin Coding Harness distribution: planning, TDD, debugging, review, and delivery workflows for coding agents.",
+  "author": {
+    "name": "Jesse Vincent and contributors",
+    "url": "https://github.com/karpotkin/coding-harness"
+  },
+  "homepage": "https://github.com/karpotkin/coding-harness",
+  "repository": "https://github.com/karpotkin/coding-harness",
+  "license": "MIT",
+  "keywords": [
+    "coding-agent",
+    "planning",
+    "tdd",
+    "debugging",
+    "code-review"
+  ],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/using-superpowers/SKILL.md"
+    }
+  }
+}
